@@ -1,12 +1,12 @@
-#Description
-#There is a circle of n English lowercase letters engraved on the wheel. Every time you roll forward, you leave an imprint. 
-#This type of mark is a string of length n. Obviously, starting from different positions, different imprints may be obtained. 
-#Therefore, a wheel corresponds to at most n different imprints; conversely, different imprints may also come from the same wheel.
-#In other words, if two imprints can be converted to each other by cyclic shift, they come from the same wheel. 
-#For example, the so-called left shift by k bits means that the string "s1 ... sk sk + 1 ... sn" is converted to "sk + 1 ... sn s1 ... sk".
-#input:The first line has two positive integers, namely the wheel circumference n and the total number of prints m. 
-#input: The next m lines give m imprints with length n.
-#output:There are m rows in total, which in turn correspond to m imprints.
+//Description
+//There is a circle of n English lowercase letters engraved on the wheel. Every time you roll forward, you leave an imprint. 
+//This type of mark is a string of length n. Obviously, starting from different positions, different imprints may be obtained. 
+//Therefore, a wheel corresponds to at most n different imprints; conversely, different imprints may also come from the same wheel.
+//In other words, if two imprints can be converted to each other by cyclic shift, they come from the same wheel. 
+//For example, the so-called left shift by k bits means that the string "s1 ... sk sk + 1 ... sn" is converted to "sk + 1 ... sn s1 ... sk".
+//input:The first line has two positive integers, namely the wheel circumference n and the total number of prints m. 
+//input: The next m lines give m imprints with length n.
+//output:There are m rows in total, which in turn correspond to m imprints.
 
 
 #include <stdio.h>
